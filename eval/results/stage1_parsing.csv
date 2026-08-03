@@ -1,0 +1,4 @@
+parser,clean_text_pct,r@3_downstream
+pypdf,100.0,0.905
+pdfplumber,100.0,0.952
+pymupdf,100.0,0.857

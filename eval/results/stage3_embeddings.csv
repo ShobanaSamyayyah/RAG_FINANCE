@@ -1,0 +1,4 @@
+embedding_model,dimensions,r@1,r@3,mrr@10,ndcg@3,latency_ms_per_query
+all-MiniLM-L6-v2,384,0.571,0.81,0.731,0.596,11.7
+bge-small-en-v1.5,384,0.762,1.0,0.873,0.713,5.5
+multi-qa-mpnet-base-dot-v1,768,0.619,0.81,0.733,0.574,111.9

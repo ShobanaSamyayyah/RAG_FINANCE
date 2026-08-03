@@ -1,0 +1,33 @@
+# Consumer Credit Rights Assistant -- RAG capstone (Group 6)
+# Same stack as the course's production_rag_chatbot reference, plus RAGAS/DeepEval
+# for the Stage-8 + end-to-end evaluation (eval/generation_eval.py).
+
+streamlit
+python-dotenv
+pandas
+
+# Parsing (Stage 1 ablation)
+pypdf
+pdfplumber
+PyMuPDF
+
+# Chunking
+langchain-text-splitters
+
+# Embeddings + reranking
+sentence-transformers
+
+# Sparse retrieval
+bm25s
+PyStemmer
+
+# Vector DBs (Stage 4 ablation)
+chromadb
+faiss-cpu
+
+# Generation
+langchain-openai
+
+# End-to-end evaluation
+ragas
+deepeval
